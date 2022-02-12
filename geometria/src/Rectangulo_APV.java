@@ -19,8 +19,9 @@ public class Rectangulo_APV extends FiguraGeometrica_APV {
 	/**
 	 * 
 	 * @param tipoFigura
-	 * @param lG
-	 * @param lP
+	 * @param lG un lado
+	 * 
+	 * @param lP otro lado
 	 * Llama a la superclase figura geometrica y le asigna cada lado a una nueva variable
 	 * 
 	 */
