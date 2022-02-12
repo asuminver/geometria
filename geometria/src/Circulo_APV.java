@@ -7,6 +7,10 @@ public class Circulo_APV extends FiguraGeometrica_APV {
 	public Circulo_APV(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (r<0) {
+			r=-r;
+		}
+	
 	}
 
 	@Override
