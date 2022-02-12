@@ -1,9 +1,9 @@
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica_APV {
 
 	protected String tipoFigura;
 
-	public FiguraGeometrica(String tipoFigura) {
+	public FiguraGeometrica_APV(String tipoFigura) {
 		super();
 		this.tipoFigura = tipoFigura;
 	}
@@ -19,5 +19,7 @@ public abstract class FiguraGeometrica {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
-
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 }
