@@ -1,5 +1,5 @@
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica_JAZ {
 
 	protected String tipoFigura;
 
