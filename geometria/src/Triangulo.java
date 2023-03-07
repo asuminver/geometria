@@ -1,5 +1,5 @@
 
-public class Triangulo extends FiguraGeometrica {
+public class Triangulo_JAZ extends FiguraGeometrica_JAZ {
 	private double lado1;
 	private double lado2;
 	private double lado3;
