@@ -1,8 +1,8 @@
 
 public class Triangulo extends FiguraGeometrica {
-	private double a;
-	private double b;
-	private double c;
+	private double lado1;
+	private double lado2;
+	private double lado3;
 	
 	public Triangulo(String tipoFigura, double lado1, double lado2, double lado3) {
 		super(tipoFigura);
@@ -17,7 +17,7 @@ public class Triangulo extends FiguraGeometrica {
 	}
 
 	@Override
-	public double area() { //Utiliza la formula de Her—n
+	public double area() { //Utiliza la formula de Herâ€”n
 		double sp;
 		sp = this.semiPerimetro();
 		return Math.sqrt(sp * (sp-a) * (sp-b) * (sp-c));
