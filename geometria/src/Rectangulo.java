@@ -1,5 +1,5 @@
 
-public class Rectangulo extends FiguraGeometrica {
+public class Rectangulo_JAZ extends FiguraGeometrica_JAZ {
 	private double l1;
 	private double l2;
 	
