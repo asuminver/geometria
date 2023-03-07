@@ -23,7 +23,4 @@ public class Triangulo_JAZ extends FiguraGeometrica_JAZ {
 		return Math.sqrt(sp * (sp-a) * (sp-b) * (sp-c));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
 }
